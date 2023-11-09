@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"REV691_Holiday_CA_Prospect_Flight1_970x250_atlas_1", frames: [[0,0,378,307],[380,0,178,546],[383,548,174,255],[0,309,284,231],[0,548,381,199],[0,749,250,75]]}
+		{name:"REV691_Holiday_CA_Prospect_Flight1_970x250_atlas_1", frames: [[0,0,378,307],[380,0,178,546],[846,201,174,255],[560,201,284,253],[560,0,381,199],[0,309,250,75]]}
 ];
 
 
@@ -143,13 +143,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.f1phonegr8giftCA();
-	this.instance.setTransform(-71,-57.75,0.5,0.5);
+	this.instance.setTransform(-71,-57.75,0.5,0.5476);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PHONE, new cjs.Rectangle(-71,-57.7,142,115.5), null);
+}).prototype = getMCSymbolPrototype(lib.PHONE, new cjs.Rectangle(-71,-57.7,142,126.5), null);
 
 
 (lib.LOGO = function(mode,startPosition,loop,reversed) {
@@ -611,10 +611,10 @@ if (reversed == null) { reversed = false; }
 
 	// PHONE
 	this.instance_8 = new lib.PHONE();
-	this.instance_8.setTransform(790,307.25);
+	this.instance_8.setTransform(790,307.95);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(21).to({_off:false},0).to({y:183.75},8,cjs.Ease.circOut).wait(1).to({scaleX:1.12,scaleY:1.12,x:789.95,y:183.7},2,cjs.Ease.quadOut).to({scaleX:1,scaleY:1,x:790,y:183.75},5).wait(159));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(21).to({_off:false},0).to({y:184.45},8,cjs.Ease.circOut).wait(1).to({scaleX:1.12,scaleY:1.12,x:789.95,y:184.4},2,cjs.Ease.quadOut).to({scaleX:1,scaleY:1,x:790,y:184.45},5).wait(159));
 
 	// HEAD3
 	this.instance_9 = new lib.HEAD3();
