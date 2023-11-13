@@ -453,9 +453,9 @@ if (reversed == null) { reversed = false; }
 	// mask_idn (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	var mask_graphics_146 = new cjs.Graphics().p("Anva6IgRgXIgFgHQgGgJgFgEQgGgFgHABIgGACIjcgBIgFgDQgGgDgDgEQgEgFgCgFIgBgGIgGryIAAgGQABgHADgEQACgEAEgDQAEgCACgBIY4AAIAJABQAKADAGAGQAGAGAAAHIgBAHIgELqIgBAIQgCAJgEAFQgDAGgJABIgJAAIjGgCIgJAAQgLABgHAEQgHAEgFAGIgEAFQgGAMgHAHQgEAEgHAEIgGADg");
+	var mask_graphics_95 = new cjs.Graphics().p("Anva6IgRgXIgFgHQgGgJgFgEQgGgFgHABIgGACIjcgBIgFgDQgGgDgDgEQgEgFgCgFIgBgGIgGryIAAgGQABgHADgEQACgEAEgDQAEgCACgBIY4AAIAJABQAKADAGAGQAGAGAAAHIgBAHIgELqIgBAIQgCAJgEAFQgDAGgJABIgJAAIjGgCIgJAAQgLABgHAEQgHAEgFAGIgEAFQgGAMgHAHQgEAEgHAEIgGADg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(146).to({graphics:mask_graphics_146,x:84.5351,y:172.1898}).wait(79));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(95).to({graphics:mask_graphics_95,x:84.5351,y:172.1898}).wait(130));
 
 	// HL
 	this.instance_3 = new lib.HL();
@@ -468,21 +468,21 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(146).to({_off:false},0).to({regX:298.8,scaleX:0.8223,scaleY:0.8407,rotation:77.0083,x:113.95,y:608},48,cjs.Ease.quintOut).wait(31));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(95).to({_off:false},0).to({regX:298.8,scaleX:0.8223,scaleY:0.8407,rotation:77.0083,x:113.95,y:608},48,cjs.Ease.quintOut).wait(82));
 
 	// PLATE
 	this.instance_4 = new lib.PLATE();
 	this.instance_4.setTransform(248.1,304.5,0.932,0.932,0,0,0,0.6,0.7);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(21).to({_off:false},0).to({regY:0.8,x:92.5,y:304.85},8,cjs.Ease.circOut).wait(1).to({scaleX:1.0337,scaleY:1.0337,y:304.9},2).to({scaleX:0.932,scaleY:0.932,y:304.85},5).wait(178).to({scaleX:1.0337,scaleY:1.0337,y:304.9},2).to({scaleX:0.932,scaleY:0.932,y:304.85},5).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1).to({_off:false},0).to({regY:0.8,x:92.5,y:304.85},8,cjs.Ease.circOut).wait(62).to({scaleX:1.0337,scaleY:1.0337,y:304.9},2).to({scaleX:0.932,scaleY:0.932,y:304.85},5).wait(137).to({scaleX:1.0337,scaleY:1.0337,y:304.9},2).to({scaleX:0.932,scaleY:0.932,y:304.85},5).wait(3));
 
 	// PHONE
 	this.instance_5 = new lib.PHONE();
 	this.instance_5.setTransform(-50.55,512.35,0.8868,0.8868,0,0,0,-0.1,0.1);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(21).to({_off:false},0).to({regX:0.1,x:18.5,y:511.2},8,cjs.Ease.circOut).wait(1).to({scaleX:1.0769,scaleY:1.0769,y:511.15},2).to({scaleX:0.8868,scaleY:0.8868,y:511.2},5).wait(178).to({scaleX:1.0769,scaleY:1.0769,y:511.15},2).to({scaleX:0.8868,scaleY:0.8868,y:511.2},5).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1).to({_off:false},0).to({regX:0.1,x:18.5,y:511.2},8,cjs.Ease.circOut).wait(62).to({scaleX:1.0769,scaleY:1.0769,y:511.15},2).to({scaleX:0.8868,scaleY:0.8868,y:511.2},5).wait(137).to({scaleX:1.0769,scaleY:1.0769,y:511.15},2).to({scaleX:0.8868,scaleY:0.8868,y:511.2},5).wait(3));
 
 	// CAR1
 	this.instance_6 = new lib.CAR1();
@@ -503,14 +503,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_8.setTransform(-63.8,89.1,0.4874,0.4874,0,0,0,0.4,0.2);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(46).to({_off:false},0).to({regX:0.5,x:11.25},8,cjs.Ease.circOut).wait(171));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(13).to({_off:false},0).to({regX:0.5,x:11.25},8,cjs.Ease.circOut).wait(204));
 
 	// SUBHEAD
 	this.instance_9 = new lib.SUBHEAD();
 	this.instance_9.setTransform(-137,219);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(90).to({_off:false},0).to({x:8},8,cjs.Ease.circOut).wait(127));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(22).to({_off:false},0).to({x:8},8,cjs.Ease.circOut).wait(195));
 
 	// BKGD
 	this.shape_1 = new cjs.Shape();
