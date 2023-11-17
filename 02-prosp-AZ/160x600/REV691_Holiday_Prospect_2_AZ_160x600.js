@@ -504,7 +504,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_9 = new lib.HEAD1();
-	this.instance_9.setTransform(-137.5,155.05,0.5898,0.5898,0,0,0,0.4,0.2);
+	this.instance_9.setTransform(-137.5,153.05,0.5898,0.5898,0,0,0,0.4,0.2);
 	this.instance_9._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(13).to({_off:false},0).to({x:10.25},8,cjs.Ease.circOut).wait(204));

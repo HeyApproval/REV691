@@ -540,10 +540,10 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_10 = new lib.HEAD1();
-	this.instance_10.setTransform(-369,168.5,0.8338,0.8338,0,0,0,0.1,-0.1);
+	this.instance_10.setTransform(-369,165.5,0.8338,0.8338,0,0,0,0.1,-0.1);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(16).to({_off:false},0).to({x:41,y:166.8},8,cjs.Ease.circOut).wait(201));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(16).to({_off:false},0).to({x:41,y:163.8},8,cjs.Ease.circOut).wait(201));
 
 	// SUBHEAD
 	this.instance_11 = new lib.SUBHEAD();
