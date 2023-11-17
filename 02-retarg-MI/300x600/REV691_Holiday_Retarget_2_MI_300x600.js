@@ -514,7 +514,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_10.setTransform(-206.3,292,0.5369,0.5369,0,0,0,-0.2,0.3);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(22).to({_off:false},0).to({regX:0,x:16.7},8,cjs.Ease.circOut).wait(195));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(22).to({_off:false},0).to({regX:0,x:19.7},8,cjs.Ease.circOut).wait(195));
 
 	// BKGD
 	this.shape_1 = new cjs.Shape();
