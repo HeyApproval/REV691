@@ -503,14 +503,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_8.setTransform(-63.8,89.1,0.4874,0.4874,0,0,0,0.4,0.2);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(13).to({_off:false},0).to({regX:0.5,x:11.25},8,cjs.Ease.circOut).wait(204));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(13).to({_off:false},0).to({regX:0.5,x:11.75},8,cjs.Ease.circOut).wait(204));
 
 	// SUBHEAD
 	this.instance_9 = new lib.SUBHEAD();
 	this.instance_9.setTransform(-137,219);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(22).to({_off:false},0).to({x:8},8,cjs.Ease.circOut).wait(195));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(22).to({_off:false},0).to({x:11},8,cjs.Ease.circOut).wait(195));
 
 	// BKGD
 	this.shape_1 = new cjs.Shape();
