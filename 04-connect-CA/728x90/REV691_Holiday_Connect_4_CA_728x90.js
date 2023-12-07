@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_11 = function() {
 	this.initialize(ss["REV691_Holiday_Connect_4_CA_728x90_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -271,7 +271,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// f4_icon_ball_svg
-	this.instance = new lib.CachedBmp_3();
+	this.instance = new lib.CachedBmp_11();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -510,10 +510,10 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_9 = new lib.HEAD1();
-	this.instance_9.setTransform(-75.3,-6.85,0.3796,0.3796,0,0,0,0,0.1);
+	this.instance_9.setTransform(-75.3,-9.85,0.3796,0.3796,0,0,0,0,0.1);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(16).to({_off:false},0).to({regX:0.2,regY:0,x:31.35,y:-7.65},8,cjs.Ease.circOut).wait(201));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(16).to({_off:false},0).to({regX:0.2,regY:0,x:31.35,y:-10.65},8,cjs.Ease.circOut).wait(201));
 
 	// SUBHEAD
 	this.instance_10 = new lib.SUBHEAD();
